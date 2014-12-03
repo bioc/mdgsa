@@ -1,0 +1,19 @@
+Package: mdgsa
+Type: Package
+Title: Multi Dimensional Gene Set Analysis.
+Version: 0.99.2
+Date: 2013-09-26
+Author: David Montaner <dmontaner@cipf.es>
+Maintainer: David Montaner <dmontaner@cipf.es>
+URL: https://github.com/dmontaner/mdgsa, http://www.dmontaner.com
+Description: Functions to preform a Gene Set Analysis in several
+        genomic dimensions. Including methods for miRNAs.
+License: GPL
+LazyLoad: yes
+LazyData: FALSE
+Depends: R (>= 2.14)
+Imports: AnnotationDbi, DBI, GO.db, KEGG.db, cluster, Matrix
+Suggests: BiocStyle, knitr, rmarkdown, limma, ALL, hgu95av2.db, RUnit,
+        BiocGenerics
+VignetteBuilder: knitr
+biocViews: GeneSetEnrichment, Annotation, Pathways, GO
