@@ -1,7 +1,7 @@
 Package: mdgsa
 Type: Package
 Title: Multi Dimensional Gene Set Analysis.
-Version: 1.23.0
+Version: 1.23.1
 Date: 2013-09-26
 Author: David Montaner <dmontaner@cipf.es>
 Maintainer: David Montaner <dmontaner@cipf.es>
@@ -17,3 +17,4 @@ Suggests: BiocStyle, knitr, rmarkdown, limma, ALL, hgu95av2.db, RUnit,
         BiocGenerics
 VignetteBuilder: knitr
 biocViews: GeneSetEnrichment, Annotation, Pathways, GO
+PackageStatus: Deprecated
